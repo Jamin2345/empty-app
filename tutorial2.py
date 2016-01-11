@@ -2,7 +2,7 @@ from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # Three primary colors with no transparency (alpha = 1.0)
-red = Color(0xff0000, 1.0)
+red = Color(0xff0000, 0.60)
 green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
@@ -12,10 +12,10 @@ thinline = LineStyle(1, black)
 rectangle = RectangleAsset(50, 20, thinline, blue)
 rectangle2 = RectangleAsset(50, 20, thinline, green)
 ellipse = EllipseAsset(50, 20, thinline, blue)
-polygone = RectangleAsset(500, 200, thinline, red)
+polygone = RectangleAsset(300, 100, thinline, red)
 # Now display a rectangle
-Sprite(rectangle, (300, 50))
-Sprite(rectangle2, (325, 55))
+Sprite(rectangle, (200, 150))
+Sprite(rectangle2, (225, 155))
 Sprite(ellipse, (80,70))
 Sprite(polygone)
 myapp = App()
