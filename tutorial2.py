@@ -11,9 +11,10 @@ thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(50, 20, thinline, blue)
 rectangle2 = RectangleAsset(50, 20, thinline, blue)
+ellipse = EllipseAsset(50, 20, thinline, red)
 # Now display a rectangle
 Sprite(rectangle, (200, 50))
 Sprite(rectangle2, (225, 55))
-
+Sprite(ellipse, (0,0))
 myapp = App()
 myapp.run()
