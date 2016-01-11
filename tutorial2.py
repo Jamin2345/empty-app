@@ -15,6 +15,6 @@ ellipse = EllipseAsset(50, 20, thinline, red)
 # Now display a rectangle
 Sprite(rectangle, (200, 50))
 Sprite(rectangle2, (225, 55))
-Sprite(ellipse, (0,0))
+Sprite(ellipse, (80,70))
 myapp = App()
 myapp.run()
