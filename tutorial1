@@ -1,5 +1,6 @@
 from ggame import App
 from time import time
+import random
 myapp = App()
 myapp.run()
 
@@ -27,7 +28,7 @@ Sprite(bellipse, (500,370))
 count = 0
 
 while count < 10000:
-    brecatangleSprite.scale = random.random()
+    brectangle.scale = random.random()
    
     time.sleep (1)
     count = count + 1
