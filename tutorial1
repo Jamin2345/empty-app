@@ -24,9 +24,11 @@ bellipse = EllipseAsset(125,150,thinline, blue)
 Sprite(brectangle,(100,100))
 Sprite(rrectangle,(450,270))
 Sprite(bellipse, (500,370))
+count = 0
 
 while count < 10000:
     brecatangleSprite.scale = random.random()
+   
     time.sleep (1)
     count = count + 1
 myapp = App()
