@@ -30,7 +30,6 @@ count = 0
 while count < 10000:
     brectangle.scale = random.random()
    
-    time.sleep (1)
     count = count + 1
 myapp = App()
 myapp.run()
