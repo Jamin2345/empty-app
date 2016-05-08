@@ -6,9 +6,9 @@ from ggame import App, Color, LineStyle, Sprite
 from ggame import RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # Three primary colors with no transparency (alpha = 1.0)
-red = Color(0xff0000, 1.0)
+red = Color(0xff0000, 0.70)
 green = Color(0x00ff00, 1.0)
-blue = Color(0x0000ff, 0.30)
+blue = Color(0x0000ff, 0.40)
 black = Color(0x000000, 0.30)
 
 # Define a line style that is a thin (1 pixel) wide black line
@@ -24,5 +24,7 @@ Sprite(brectangle,(100,100))
 Sprite(rrectangle,(450,270))
 Sprite(bellipse, (500,370))
 
+while (count < 10000)
+    br
 myapp = App()
 myapp.run()
