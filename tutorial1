@@ -21,11 +21,13 @@ rrectangle = EllipseAsset(40, 20, thinline, red)
 bellipse = EllipseAsset(125,150,thinline, blue)
 vrectangle = EllipseAsset(40, 20, thinline, red)
 poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
+blektrang = RectangleAsset(100, 15,thinline, red)
 # Now display a rectangle
 Sprite(rrectangle,(450,270))
 Sprite(bellipse, (500,370))
 Sprite(vrectangle, (550, 270))
 Sprite(poly, (500, 300))
+Sprite(blektrang, (450, 450))
 
 myapp = App()
 myapp.run()
