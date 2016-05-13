@@ -16,17 +16,16 @@ black = Color(0x000000, 0.30)
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
-brectangle = RectangleAsset(50, 20, thinline, blue)
+
 rrectangle = EllipseAsset(40, 20, thinline, red)
 bellipse = EllipseAsset(125,150,thinline, blue)
 vrectangle = EllipseAsset(40, 20, thinline, red)
-
+poly = PolygonAsset([(0,0), (50,50), (50,100), (0,0)], thinline, red)
 # Now display a rectangle
-Sprite(brectangle,(500,800))
 Sprite(rrectangle,(450,270))
 Sprite(bellipse, (500,370))
 Sprite(vrectangle, (550, 270))
-
+Sprite(poly, (500, 300))
 
 myapp = App()
 myapp.run()
